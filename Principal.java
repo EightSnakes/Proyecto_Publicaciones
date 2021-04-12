@@ -1,7 +1,7 @@
 package publicaciones;
 
 import java.util.*;
-
+//Si se realizo el cambio a ArrayList
 public class Principal {
 
 	public static void main(String[] args) {
@@ -104,7 +104,7 @@ public class Principal {
 							num2 = leer.nextInt();
 							revista.setNumero(num2);
 							
-							System.out.print("Ingerese el Año de publicacion: ");
+							System.out.print("Ingerese el AÃ±o de publicacion: ");
 							num2 = leer.nextInt();
 							revista.setAnio(num2);
 							
@@ -165,7 +165,7 @@ public class Principal {
 							System.out.println("Titulo " + rev1.getTitulo());
 							System.out.println("Precio " + rev1.getPrecio());
 							System.out.println("Numero de publicacion " + rev1.getNumero());
-							System.out.println("Año de publicacion" + rev1.getAnio());
+							System.out.println("AÃ±o de publicacion" + rev1.getAnio());
 							System.out.println("Numero de paginas " + rev1.getNumpag());
 							System.out.println("Periodicidad " + rev1.getPeriodicidad());
 						}//if
